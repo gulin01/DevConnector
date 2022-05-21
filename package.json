@@ -1,0 +1,18 @@
+{
+  "name": "socialnetworkingfordevelopers",
+  "version": "1.0.0",
+  "description": "social networking fro developers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "gulin01",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.2.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
