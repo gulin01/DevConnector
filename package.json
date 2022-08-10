@@ -4,7 +4,8 @@
   "description": "social networking fro developers",
   "main": "server.js",
   "scripts": {
-    "start": "node server"
+    "start": "node server",
+    "server": " nodemon server"
   },
   "author": "gulin01",
   "license": "ISC",
@@ -13,6 +14,9 @@
     "nodemon": "^2.0.16"
   },
   "dependencies": {
-    "express": "^4.18.1"
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.3.4"
   }
 }
