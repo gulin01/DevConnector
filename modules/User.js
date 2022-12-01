@@ -4,12 +4,6 @@ const UserSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
-    validate: {
-      validator: function (v) {
-        return /\a-z/.test(v);
-      },
-      message: (props) => `${props.value} is not valid name!`,
-    },
   },
   email: {
     type: String,
