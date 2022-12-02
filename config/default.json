@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb://gulin9717:gulin9717@ac-ts5i0jk-shard-00-00.wicjjap.mongodb.net:27017,ac-ts5i0jk-shard-00-01.wicjjap.mongodb.net:27017,ac-ts5i0jk-shard-00-02.wicjjap.mongodb.net:27017/?ssl=true&replicaSet=atlas-987b7h-shard-0&authSource=admin&retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "5cbc1b18d54a542a6b0d",
+  "githubSecret": " 167aabe6805a20d640643ba0bc240b324c3a7e3e"
 }
