@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://gulin9717:gulin9717@cluster1.kjpmt.mongodb.net/?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://gulin9717:gulin9717@devconnector.wicjjap.mongodb.net/?retryWrites=true&w=majority",
   "jwtSecret": "mysecrettoken"
 }

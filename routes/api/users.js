@@ -25,6 +25,7 @@ router.post(
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
+    console.log("coming into register user");
     const { name, email, password } = req.body;
     try {
       let user = await User.findOne({ email });
@@ -66,7 +67,7 @@ router.post(
       );
     } catch (error) {
       console.log(error.message);
-      res.status(500).send("serverError");
+      res.status(500).send("server Error");
     }
   }
 );
